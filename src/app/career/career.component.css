@@ -6,20 +6,19 @@ div > div {
     background: var(--primary-background);
     padding: 2ch;
     margin: 1rem 0;
-    position: relative;
 }
 
 div > div > header > h5 {
     margin-top: 0;
 }
 
-.personal-projects > header {
-    display: grid;
-    grid-template-columns: auto auto 1fr;
-}
 .personal-projects > header > input[type="button"] {
-    margin:  -.5rem 1rem;
     padding: .5rem;
     background: var(--clr-blue-button);
+}
+
+.personal-projects > header > h4 {
+    display: inline-block;
+    margin-right: 1rem;
 }
 
