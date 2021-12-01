@@ -1,0 +1,35 @@
+nav {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 2rem;
+}
+
+nav > a > img {
+    height: 5rem;
+    margin: 2ch;
+}
+
+nav > div {
+    margin: auto 0;
+}
+
+nav > div > ul {
+    float: right;
+}
+
+nav > div > ul > a {
+    display: inline-block;
+    padding: 1rem 1rem;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav > div > ul > a:hover, nav > div > ul > a:focus-visible {
+    background: var(--primary-background-hover);
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+}

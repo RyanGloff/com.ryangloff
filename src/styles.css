@@ -1,0 +1,37 @@
+:root {
+    --clr-blue-button: #5eb5eb;
+    --primary-text: #333;
+    --primary-background: #F8FAFC;
+    --primary-background-hover: #D8DADC;
+    --primary-font-family: sans-serif;
+}
+
+html, body {
+    background: var(--primary-background);
+    font-family: var(--primary-font-family);
+    color: var(--primary-text);
+}
+
+body {
+    overflow-y: scroll;
+}
+
+html, body, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+app-root {
+    display: flex;
+    justify-content: center;
+}
+
+app-root > div {
+    background: #FFF;
+    min-height: 100vh;
+    max-width: 115ch;
+    width: 75%;
+    padding: 0 5ch;
+    box-shadow: 1rem 1rem 1rem var(--primary-background-hover),
+                -1rem -1rem 1rem var(--primary-background-hover);
+}
