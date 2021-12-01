@@ -15,6 +15,7 @@ nav > div {
 
 nav > div > ul {
     float: right;
+    padding-left: 0;
 }
 
 nav > div > ul > a {

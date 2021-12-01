@@ -18,3 +18,21 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+#home-content > img {
+    width: 100%;
+}
+
+#home-content > div {
+    padding: 1rem;
+}
+
+#home-content > div > :is(p, h1) {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    #home-content {
+        grid-template-columns: 1fr;
+    }
+}
